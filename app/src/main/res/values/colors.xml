@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#080C12</color>
+    <color name="surface">#101720</color>
+    <color name="surface_high">#17212D</color>
+    <color name="surface_glass">#E6121821</color>
+    <color name="brand_primary">#63E6BE</color>
+    <color name="brand_primary_dark">#20B486</color>
+    <color name="brand_secondary">#74A7FF</color>
+    <color name="text_primary">#F6F8FB</color>
+    <color name="text_secondary">#AAB6C5</color>
+    <color name="text_muted">#758396</color>
+    <color name="outline">#2A3849</color>
+    <color name="progress_track">#263443</color>
+    <color name="black_scrim">#99080C12</color>
+</resources>

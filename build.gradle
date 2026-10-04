@@ -1,0 +1,4 @@
+// 当前稳定 Android 工具链：AGP 9.4 + Gradle 9.6 + JDK 17。
+plugins {
+    id 'com.android.application' version '9.4.0' apply false
+}

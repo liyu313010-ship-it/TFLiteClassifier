@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">智能视觉识别</string>
+    <string name="brand_name">智能视觉识别</string>
+    <string name="privacy_badge">本地推理 · 隐私安全</string>
+
+    <string name="live_camera">实时识别</string>
+    <string name="pick_image">选择图片</string>
+    <string name="voice_broadcast">语音播报</string>
+    <string name="voice_description">稳定识别后自动播报中文结果</string>
+    <string name="voice_description_short">稳定后播报中文结果</string>
+    <string name="voice_enabled">语音播报已开启</string>
+    <string name="voice_disabled">语音播报已关闭</string>
+    <string name="voice_initializing">正在连接系统语音引擎…</string>
+    <string name="voice_ready_zh">中文语音播报已就绪</string>
+    <string name="voice_ready_fallback">缺少中文语音，将使用英文播报</string>
+    <string name="voice_speak_failed">播报失败，请检查媒体音量和系统文字转语音设置</string>
+
+    <string name="results_title">识别结果</string>
+    <string name="results_subtitle">目标检测 · 1000 类回退</string>
+    <string name="selected_image_description">选中的图片</string>
+    <string name="result_rank">%1$d</string>
+    <string name="confidence_format">%1$.1f%%</string>
+    <string name="result_accessibility">第 %1$d 项，%2$s，英文 %3$s，置信度 %4$.1f%%</string>
+
+    <string name="camera_hint">将物体对准取景框</string>
+    <string name="gallery_hint">已选择图片，点击「选择图片」可更换</string>
+    <string name="switch_to_front_camera">切换到前置摄像头</string>
+    <string name="switch_to_back_camera">切换到后置摄像头</string>
+    <string name="camera_front_active">已切换到前置摄像头</string>
+    <string name="camera_back_active">已切换到后置摄像头</string>
+    <string name="camera_flip_unavailable">当前设备没有另一个可用摄像头</string>
+    <string name="camera_flip_failed">摄像头切换失败，请重试</string>
+    <string name="zoom_out">缩小</string>
+    <string name="zoom_in">放大</string>
+    <string name="zoom_out_symbol">−</string>
+    <string name="zoom_in_symbol">+</string>
+    <string name="zoom_default">1.0×</string>
+    <string name="zoom_ratio_format">%1$.1f×</string>
+    <string name="zoom_out_accessibility">缩小画面，最低 %1$.1f 倍</string>
+    <string name="zoom_in_accessibility">放大画面，最高 %1$.1f 倍</string>
+
+    <string name="results_empty_camera">将物体对准取景框，识别结果会显示在这里</string>
+    <string name="results_empty_gallery">选择一张图片，识别结果会显示在这里</string>
+
+    <string name="status_model_loading">正在加载模型…</string>
+    <string name="status_no_camera">当前设备没有可用相机</string>
+    <string name="status_model_load_failed">模型加载失败：%1$s</string>
+    <string name="status_camera_permission_required">需要相机权限才能实时识别</string>
+    <string name="status_camera_permission_denied">相机权限被拒绝，已切换到选图模式</string>
+    <string name="status_camera_starting">正在启动相机…</string>
+    <string name="status_camera_start_failed">相机启动失败：%1$s</string>
+    <string name="status_image_loading">正在读取图片…</string>
+    <string name="status_live_result">实时识别 · 推理耗时 %1$d ms</string>
+    <string name="status_gallery_result">识别完成 · 推理耗时 %1$d ms</string>
+    <string name="status_fallback_result">1000 类回退识别 · %1$d ms</string>
+    <string name="status_inference_failed">识别失败：%1$s</string>
+    <string name="status_gallery_ready">已切换到选图模式</string>
+    <string name="status_live_ready">实时识别已就绪</string>
+
+    <string name="error_decode_empty">图片解码结果为空</string>
+    <string name="error_open_image">无法打开图片</string>
+    <string name="error_invalid_image">图片格式无效</string>
+    <string name="error_model_not_ready">模型尚未就绪</string>
+
+    <string name="tts_missing_title">无法语音播报</string>
+    <string name="tts_missing_message">当前设备缺少可用的文字转语音（TTS）引擎或语音数据。请前往系统设置，选择一个引擎并下载中文语音包后再试。</string>
+    <string name="tts_go_settings">去设置</string>
+    <string name="tts_cancel">取消</string>
+
+    <string name="creator_title">创作者</string>
+    <string name="creator_name">李雨</string>
+    <string name="creator_confirm">确认</string>
+    <string name="tts_announcement">识别到：%1$s</string>
+    <string name="tts_cloud_announcement">千问识别到：%1$s</string>
+
+    <string name="cloud_recognition">联网识别（通义千问）</string>
+    <string name="cloud_description">调用阿里视觉大模型识别并播报场景</string>
+    <string name="cloud_description_short">千问识别并语音播报</string>
+    <string name="status_cloud_result">云端识别完成 · 耗时 %1$d ms</string>
+</resources>
